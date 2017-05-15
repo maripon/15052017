@@ -2,7 +2,7 @@
 <html lang="es">
 <?php
 $title = "DEPORTE Y VIDA SANA";
-$descripcion = "Pongan acá su descripción.";
+$descripcion = "Una serie de artículos para concientizar acerca del deporte y su importancia para tener una vida saludable.";
 ?>
 <head>
 <meta charset="utf-8">
@@ -44,6 +44,7 @@ $descripcion = "Pongan acá su descripción.";
 <div class="masthead clearfix">
 <div class="inner">
 <h1 class="masthead-brand"><?php echo($title);?></h1>
+<h2 class="masthead-brand"><?php echo($descripcion);?></h2>
 <nav>
 <ul class="nav masthead-nav">
 <li<?php if((basename($_SERVER['PHP_SELF']))=='index.php'){?> class="active" <?php };?>><a href="index.php">Portada</a></li>
