@@ -47,15 +47,10 @@ $descripcion = "Pongan acá su descripción.";
 <nav>
 <ul class="nav masthead-nav">
 <li<?php if((basename($_SERVER['PHP_SELF']))=='index.php'){?> class="active" <?php };?>><a href="index.php">Portada</a></li>
-<li<?php if((basename($_SERVER['PHP_SELF']))=='index.php'){?> class="active" <?php };?>><a href="amigui.php">Datos amigo</a></li>
+<li<?php if((basename($_SERVER['PHP_SELF']))=='amigui.php'){?> class="active" <?php };?>><a href="amigui.php">Datos amigo</a></li>
 <li<?php if((basename($_SERVER['PHP_SELF']))=='about.php'){?> class="active" <?php };?>><a href="about.php">Sobre el proyecto</a></li>
 </ul>
 </nav>
 </div>
 </div>
-<?php if((basename($_SERVER['PHP_SELF']))=='index.php'){?>
-  <h2><?php echo($descripcion_index);?></h2>
-<?php }else{ ?>
-  <h2><?php echo($descripcion_estudiantes);?></h2>
-<?php };?>
 </header>
